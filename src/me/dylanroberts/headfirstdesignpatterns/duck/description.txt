@@ -1,0 +1,13 @@
+STRATEGY PATTERN
+
+This design pattern is abstracting out the stuff that changes (flying/quacking) and creating a solid and reliable base
+from which new features can get added with ease.
+
+The book states that a programmer should program to an interface, not an implementation. In this situation, there can
+always be new ducks and that means new flying/quacking behaviors. By having interfaces (QuackBehavior/FlyBehavior), it
+allows the programmer to define methods/fields that accept the general type. They can then plugin in whatever
+implementation of the interface they would like. In addition, each of the implementations of the interface can easily be
+reused with any of the new ducks that get added (RubberDuck and WoodenDuck could share "NoFly").
+
+This pattern makes the software very clean, expandable, reusable, and reliable. These advantages are a result of
+polymorphism and abstraction.
