@@ -1,4 +1,4 @@
-package me.dylanroberts.headfirstdesignpatterns.duck;
+package me.dylanroberts.headfirstdesignpatterns.strategypattern;
 
 public class DuckRunner {
     public static void main(String[] args) {

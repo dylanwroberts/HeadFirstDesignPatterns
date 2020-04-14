@@ -1,4 +1,4 @@
-package me.dylanroberts.headfirstdesignpatterns.duck;
+package me.dylanroberts.headfirstdesignpatterns.strategypattern;
 
 public class MuteQuack implements QuackBehavior {
 
